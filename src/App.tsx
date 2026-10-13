@@ -1,4 +1,5 @@
 import { ExperienceCard } from "./components/ExperienceCard";
+import { Footer } from "./components/Footer";
 import { Header } from "./components/Header";
 import { Hero } from "./components/Hero";
 import { HowIWorkCard } from "./components/HowIWorkCard";
@@ -13,7 +14,7 @@ export default function App() {
       <div className="pointer-events-none absolute -top-24 -right-16 h-72 w-72 rounded-full bg-white/80 blur-3xl" />
       <div className="pointer-events-none absolute -bottom-24 -left-10 h-72 w-72 rounded-full bg-white blur-3xl" />
 
-      <main className="relative mx-auto w-full max-w-[1080px] px-5 pb-16 pt-6 sm:px-8 lg:px-10">
+      <main className="relative mx-auto w-full max-w-[1080px] px-5 pb-6 pt-6 sm:px-8 lg:px-10">
         <Header />
         <Hero />
 
@@ -27,6 +28,7 @@ export default function App() {
           </div>
         </section>
       </main>
+      <Footer />
     </div>
   );
 }
